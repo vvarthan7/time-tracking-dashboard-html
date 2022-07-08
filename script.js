@@ -3,18 +3,9 @@
     element = document.querySelector('.profile-activity-wrapper');
     for(let i = 0; i < data.length; i++) {
       let title = data[i].title, time = data[i].timeframes,
-      currentTime = time.weekly.current,
-      previousTime = time.weekly.previous,
-      previousPeriod = 'Last Week';
-      if(timeframe == 'daily') {
-        currentTime = time.daily.current;
-        previousTime = time.daily.previous;
-        previousPeriod = 'Yesterday';
-      } else if (timeframe == 'monthly') {
-        currentTime = time.monthly.current;
-        previousTime = time.monthly.previous;
-        previousPeriod = 'Last Month';
-      }
+      currentTime = time[timeframe].current,
+      previousTime = time[timeframe].previous;
+      timeframe == 'daily' ? previousPeriod = 'Yesterday' : timeframe == 'monthly' ? previousPeriod = 'Last Month' : previousPeriod = 'Last Week';
       element.innerHTML += `<div class="profile-${title.replace(/\s+/g, '').toLowerCase()} profile-activity active">
         <div class="profile-activity-banner"></div>
         <div class="profile-activity-item">
