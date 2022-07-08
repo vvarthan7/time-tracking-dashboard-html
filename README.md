@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/time-tracking-dashboard-INWtTsv1vy
+- Live Site URL: https://time-tracking-dashboard-sigma-six.vercel.app/
 
 ## My process
 
@@ -45,7 +45,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vvarthan7)
 - Twitter - [@yourusername](https://www.twitter.com/vvarthan7)
 
