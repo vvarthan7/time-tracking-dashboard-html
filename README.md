@@ -45,8 +45,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vvarthan7)
-- Twitter - [@yourusername](https://www.twitter.com/vvarthan7)
+- Frontend Mentor - [@Vishnuvarthan](https://www.frontendmentor.io/profile/vvarthan7)
+- Twitter - [@Vishnuvarthan](https://www.twitter.com/vvarthan7)
 
 
 ## Acknowledgments
